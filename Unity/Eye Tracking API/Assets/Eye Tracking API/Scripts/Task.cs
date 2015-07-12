@@ -67,7 +67,17 @@ public class Task : MonoBehaviour
 
 	Color FloatToColor(float f)
 	{
-		return Color.Lerp(Color.blue, Color.red, f);
+		float ff = f * 3;
+
+		if (ff < 1)
+			return Color.Lerp(Color.black, Color.blue, ff);
+		else if (ff < 2)
+			return Color.Lerp(Color.blue, Color.red, ff - 1);
+		else if (ff < 3)
+			return Color.Lerp(Color.red, Color.green, ff - 2);
+		else
+			return Color.green;
+
 		//return Color.red;
 	}
 
