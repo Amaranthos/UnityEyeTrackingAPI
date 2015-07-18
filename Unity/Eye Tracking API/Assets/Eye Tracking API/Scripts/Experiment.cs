@@ -15,12 +15,24 @@ public class Experiment : MonoBehaviour
 		allTasks = new List<Task>();
 	}
 
-	public void CreateTask()
+	public void StartTask()
 	{
+		//Create Task
 		print("CreateTask");
 		curTask++;
-		allTasks.Add(gameObject.AddComponent<Task>());
-		allTasks[curTask].experiment = this;
+        Task temp = gameObject.AddComponent<Task>();
+        temp.experiment = this;
+		allTasks.Add(temp);
+
+		//Start Task
+		allTasks[curTask].StartTask();
+
+	}
+
+	public void EndTask()
+	{
+
+
 	}
 
 

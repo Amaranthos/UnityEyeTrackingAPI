@@ -5,9 +5,17 @@ using System.Collections.Generic;
 [RequireComponent(typeof(GazePointDataComponent))]
 public class Session : MonoBehaviour 
 {
+	private string fileOut;
+	private string studentNo;
+	private string studentName;
+	private string teacherName;
+
+
 	public List<Experiment> allExperients;
 
 	public Vector2 focusPos;
+
+	public string file;
 	
 	public Mode mode;
 
@@ -49,25 +57,47 @@ public class Session : MonoBehaviour
 		}
 		if (Input.GetKeyDown(KeyCode.E))
 		{
-			CreateExperiment();
+			StartExperiment();
 		}
 		if (Input.GetKeyDown(KeyCode.T))
 		{
-			CreateTask();
+			StartTask();
 		}
 	}
 
-	void CreateExperiment()
+	public Session(string mStudentNumber, string mStudentName, string mTeacherName, string mOutlocation)
 	{
-		print("CreateExperiment");
-		curExperiment ++;
-		allExperients.Add(gameObject.AddComponent<Experiment>());
-		allExperients[curExperiment].session = this;
+		studentNo = mStudentNumber;
+		studentName = mStudentName;
+		teacherName = mTeacherName;
+		fileOut = mOutlocation;
 	}
 
-	void CreateTask()
+
+	void StartExperiment()
 	{
-		allExperients[curExperiment].CreateTask();
+		curExperiment ++;
+		print("CreateExperiment: " + curExperiment.ToString());
+        Experiment temp = gameObject.AddComponent<Experiment>();
+        temp.session = this;
+        allExperients.Add(temp);
+	}
+
+	void StartTask()
+	{
+		allExperients[curExperiment].StartTask();
+	}
+
+	void EndExperiment()
+	{
+
+
+	}
+
+	void EndTask()
+	{
+
+
 	}
 }
 

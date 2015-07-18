@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Eye Tracking API.CSharp.Plugins", "UnityVS.Eye Tracking API.CSharp.Plugins.csproj", "{B4887155-7849-7D27-5E06-9F09C2812B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Eye Tracking API.CSharp", "UnityVS.Eye Tracking API.CSharp.csproj", "{F5DAFDB7-9AAB-D0A2-C7D6-E118AE9F2EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityVS.Eye Tracking API.CSharp.Editor", "UnityVS.Eye Tracking API.CSharp.Editor.csproj", "{7E2B42F9-D9AC-B959-8B10-3F3845BB9B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4887155-7849-7D27-5E06-9F09C2812B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4887155-7849-7D27-5E06-9F09C2812B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4887155-7849-7D27-5E06-9F09C2812B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4887155-7849-7D27-5E06-9F09C2812B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5DAFDB7-9AAB-D0A2-C7D6-E118AE9F2EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5DAFDB7-9AAB-D0A2-C7D6-E118AE9F2EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5DAFDB7-9AAB-D0A2-C7D6-E118AE9F2EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5DAFDB7-9AAB-D0A2-C7D6-E118AE9F2EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2B42F9-D9AC-B959-8B10-3F3845BB9B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2B42F9-D9AC-B959-8B10-3F3845BB9B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2B42F9-D9AC-B959-8B10-3F3845BB9B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2B42F9-D9AC-B959-8B10-3F3845BB9B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
