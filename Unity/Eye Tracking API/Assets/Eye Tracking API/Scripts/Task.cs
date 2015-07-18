@@ -140,4 +140,12 @@ public class Task : MonoBehaviour
 		isRunning = false;
 		WritePNG(HeatmapToColorArray(heatmap), "test.png");
 	}
+
+	public int Width {
+		get {return screenWidth;}
+	}
+
+	public int Height {
+		get {return screenWidth;}
+	}
 }
