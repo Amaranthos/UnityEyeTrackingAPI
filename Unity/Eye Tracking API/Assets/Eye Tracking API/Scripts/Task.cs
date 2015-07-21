@@ -2,21 +2,27 @@
 using System.Collections;
 using System.IO;
 
-//[SerializeField]
-public class Task 
+[System.Serializable]
+public class Task
 {
+
+	public string name; //Nmae of the taks
+	public Vector2 aa; // Top Left of Focus Area
+	public Vector2 bb; // Bottom Right of Focus Area
+
 	public bool isRunning;
 
 	public float timer = 0f; // timer to record how long the student takes to complete.
 
 	public float[,] heatmap; // holds a float value added each fram based on delta time
 
+	[System.NonSerialized]
 	public Experiment experiment; //Knows what experiment it is in.
 
 
 	private int screenWidth; //Holds screen width. Screen res should never change
 	private int screenHeight; //Holds screen height. Screen res should never change
-	private int heatmapRange = 100; //Radius of the focus area for each frame
+	private int heatmapRange = 20; //Radius of the focus area for each frame
 	private float maxValue;//stores the maximum valua of the heatmap to scale at the end.
 	private float timeLookingAway;
 
@@ -24,6 +30,8 @@ public class Task
 	private void UpdateHeatmap()
 	{
 		Vector2 fPos = experiment.session.focusPos;
+
+		//Debug.Log(aa);
 
 		//Apply a percentage of delta time to area around focus point.
 		for (int i = ((int)fPos.x - heatmapRange); i < ((int)fPos.x + heatmapRange + 1) ; i++) 
@@ -59,6 +67,25 @@ public class Task
 			for (int x = 0; x < screenWidth; x++) 
 			{
 				outArray[((y * screenWidth) + x)] = FloatToColor(heatmap[x,y] / maxValue);
+
+				if (y == aa.y && x > aa.x && x < bb.x)
+				{
+					outArray[((y * screenWidth) + x)] += new Color(1, 1, 1);
+				}
+				else if (y == bb.y && x > aa.x && x < bb.x)
+				{
+					outArray[((y * screenWidth) + x)] += new Color(1, 1, 1);
+				}
+
+				else if (x == aa.x && y > aa.y && y < bb.y)
+				{
+					outArray[((y * screenWidth) + x)] += new Color(1, 1, 1);
+				}
+				else if (x == bb.x && y > aa.y && y < bb.y)
+				{
+					outArray[((y * screenWidth) + x)] += new Color(1, 1, 1);
+				}
+
 			}
 		}
 
@@ -98,7 +125,7 @@ public class Task
 		//Object.Destroy(outTex);
 		
 		// For testing purposes, also write to a file in the project folder
-		File.WriteAllBytes(Application.dataPath + filepath, bytes);
+		File.WriteAllBytes(Application.dataPath + "/" + filepath, bytes);
 
 	}
 	
@@ -118,7 +145,7 @@ public class Task
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	public void Update () 
 	{
 		if (isRunning)
 		{
@@ -131,6 +158,7 @@ public class Task
 
 	public void StartTask()
 	{
+		Start();
 		Debug.Log("Start Task");
 		isRunning = true;
 	}
@@ -140,6 +168,7 @@ public class Task
 		Debug.Log("End Task");
 		isRunning = false;
 		WritePNG(HeatmapToColorArray(heatmap), "test.png");
+		
 	}
 
 	public int Width {

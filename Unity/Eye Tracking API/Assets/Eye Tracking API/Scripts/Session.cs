@@ -11,17 +11,21 @@ public class Session : MonoBehaviour
 	private string teacherName;
 
 
-	public List<Experiment> allExperients;
-
 	public Vector2 focusPos;
 
 	public string file;
 	
 	public Mode mode;
 
-	int curExperiment = -1;
+	public int curExperiment = -1;
 
 	GazePointDataComponent gazeData;
+
+	[SerializeField]
+	public List<Experiment> allExperients;
+
+
+
 
 	// Use this for initialization
 	void Awake () 
@@ -46,6 +50,8 @@ public class Session : MonoBehaviour
 			focusPos = Input.mousePosition;
 			break;
 		}
+
+		UpdateTask();
 	}
 
 	public void StartSession(string mStudentNumber, string mStudentName, string mTeacherName, string mOutlocation)
@@ -55,44 +61,96 @@ public class Session : MonoBehaviour
 		teacherName = mTeacherName;
 		fileOut = mOutlocation;
 	}
-
-
-	public void StartExperiment(string name)
+	/// <summary>
+	/// Runs the update function on the current task
+	/// </summary>
+	void UpdateTask()
 	{
-		allExperients = new List<Experiment>();
+		if (curExperiment >= 0)
+			allExperients[curExperiment].UpdateTask();
+
+	}
+
+	/// <summary>
+	///	Creates a new experiment ready for Start Task;
+	/// </summary>
+	/// <param name="experimentName"></param>
+	public void StartExperiment(string experimentName)
+	{
+		//Creates
 		curExperiment ++;
 		print("CreateExperiment: " + curExperiment.ToString());
 		Experiment temp = new Experiment();
 		temp.session = this;
-		temp.name = name;
+		temp.name = experimentName;
+		temp.Awake();
 		allExperients.Add(temp);
 	}
-	public void EndExperiment()
-	{
-		allExperients[curExperiment].EndExperiment();
 
+	/// <summary>
+	/// Tells the current experiment to Stop
+	/// Must be called before another Experiment is Started
+	/// </summary>
+	/// <param name="experimentName"></param> 
+	public void EndExperiment(string experimentName)
+	{
+		if (allExperients[curExperiment].name == experimentName)
+			allExperients[curExperiment].EndExperiment();
 	}
 
-	public void StartTask()
+	/// <summary>
+	/// Creates a new task and starts recording
+	/// </summary>
+	/// <param name="taskName"></param>
+	/// <param name="aa"></param> The Bottom Left corner of Focus Area
+	/// <param name="bb"></param> The Top Right corner of Focus Area
+	public void StartTask(string taskName, Vector2 aa, Vector2 bb)
 	{
-		allExperients[curExperiment].StartTask();
+		allExperients[curExperiment].StartTask(taskName, aa, bb);
 	}
-	public void EndTask()
+
+	public void StartTask(string taskName, BoxCollider2D focusArea)
 	{
-		allExperients[curExperiment].EndTask();
+		Vector2 aa = Camera.main.WorldToScreenPoint(focusArea.GetComponent<BoxCollider2D>().bounds.min);
+		Vector2 bb = Camera.main.WorldToScreenPoint(focusArea.GetComponent<BoxCollider2D>().bounds.max);
 
+		Debug.Log("AA" + aa.x);
+		Debug.Log("BB" + bb.x);
+
+		allExperients[curExperiment].StartTask(taskName, new Vector2((int)aa.x, (int)aa.y), new Vector2((int)bb.x, (int)bb.y));
 	}
 
-	public void EndSessions()
+
+
+
+	//Tells the current Task to Stop
+	//Must be called before another Task is Started
+	/// <summary>
+	/// Tells the current Task to Stop
+	/// -Creates heatmap
+	/// -Collates Data
+	/// </summary>
+	/// <param name="taskName"></param>
+	public void EndTask(string taskName)
+	{
+		allExperients[curExperiment].EndTask(taskName);
+	}
+
+	public void EndSession()
 	{
 		//TODO
 		//Gather all data
 		//Save to CVS
 
 	}
+
+	public void SetMode(Mode mm)
+	{
+		mode = mm;
+	}
 }
 
 public enum Mode {
-	EyeTracking,
-	MouseTracking	
+	MouseTracking,	
+	EyeTracking
 }

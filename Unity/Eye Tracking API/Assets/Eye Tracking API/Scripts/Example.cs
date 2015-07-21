@@ -3,9 +3,11 @@ using System.Collections;
 
 public class Example : MonoBehaviour {
 
-	public GameObject focusArea;
+	public BoxCollider2D focusArea;
 
 	public Session session;
+
+	public Mode inputMode;
 
 	// Use this for initialization
 	void Start () 
@@ -13,6 +15,8 @@ public class Example : MonoBehaviour {
 		session = gameObject.AddComponent<Session>();
 			
 		session.StartSession("N20000", "Derp Smith", "Mrs Doubtfire", "Student Sessions/");
+
+		session.SetMode(inputMode);
 	}
 	
 	// Update is called once per frame
@@ -22,21 +26,23 @@ public class Example : MonoBehaviour {
 		{
 			session.StartExperiment("Exp001");
 		}
-		if (Input.GetKeyDown(KeyCode.Keypad1))
+		if (Input.GetKeyDown(KeyCode.Keypad2))
 		{
-			session.StartTask();
+
+			//session.StartTask("Tsk001", bb, aa);
+			session.StartTask("Tsk001", focusArea);
 		}
-		if (Input.GetKeyDown(KeyCode.Keypad1))
+		if (Input.GetKeyDown(KeyCode.Keypad3))
 		{
-			session.EndTask();
+			session.EndTask("Tsk001");
 		}
-		if (Input.GetKeyDown(KeyCode.Keypad1))
+		if (Input.GetKeyDown(KeyCode.Keypad4))
 		{
-			session.EndExperiment();
+			session.EndExperiment("Exp001");
 		}
-		if (Input.GetKeyDown(KeyCode.Keypad1))
+		if (Input.GetKeyDown(KeyCode.Keypad5))
 		{
-			session.EndExperiment();
+			session.EndSession();
 		}
 	}
 }
