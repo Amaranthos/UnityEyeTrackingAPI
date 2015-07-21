@@ -27,6 +27,7 @@ public class Session : MonoBehaviour
 	void Awake () 
 	{
 		gazeData = GetComponent<GazePointDataComponent> ();
+		allExperients = new List<Experiment>();
 	}
 	
 	// Update is called once per frame
@@ -45,27 +46,9 @@ public class Session : MonoBehaviour
 			focusPos = Input.mousePosition;
 			break;
 		}
-
-
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			allExperients[curExperiment].allTasks[allExperients[curExperiment].curTask].StartTask();
-		}
-		if (Input.GetKeyDown(KeyCode.LeftShift))
-		{
-			allExperients[curExperiment].allTasks[allExperients[curExperiment].curTask].EndTask();
-		}
-		if (Input.GetKeyDown(KeyCode.E))
-		{
-			StartExperiment();
-		}
-		if (Input.GetKeyDown(KeyCode.T))
-		{
-			StartTask();
-		}
 	}
 
-	public Session(string mStudentNumber, string mStudentName, string mTeacherName, string mOutlocation)
+	public void StartSession(string mStudentNumber, string mStudentName, string mTeacherName, string mOutlocation)
 	{
 		studentNo = mStudentNumber;
 		studentName = mStudentName;
@@ -74,29 +57,37 @@ public class Session : MonoBehaviour
 	}
 
 
-	void StartExperiment()
+	public void StartExperiment(string name)
 	{
+		allExperients = new List<Experiment>();
 		curExperiment ++;
 		print("CreateExperiment: " + curExperiment.ToString());
-        Experiment temp = gameObject.AddComponent<Experiment>();
-        temp.session = this;
-        allExperients.Add(temp);
+		Experiment temp = new Experiment();
+		temp.session = this;
+		temp.name = name;
+		allExperients.Add(temp);
+	}
+	public void EndExperiment()
+	{
+		allExperients[curExperiment].EndExperiment();
+
 	}
 
-	void StartTask()
+	public void StartTask()
 	{
 		allExperients[curExperiment].StartTask();
 	}
-
-	void EndExperiment()
+	public void EndTask()
 	{
-
+		allExperients[curExperiment].EndTask();
 
 	}
 
-	void EndTask()
+	public void EndSessions()
 	{
-
+		//TODO
+		//Gather all data
+		//Save to CVS
 
 	}
 }

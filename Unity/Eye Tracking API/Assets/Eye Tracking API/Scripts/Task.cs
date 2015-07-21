@@ -2,7 +2,8 @@
 using System.Collections;
 using System.IO;
 
-public class Task : MonoBehaviour 
+//[SerializeField]
+public class Task 
 {
 	public bool isRunning;
 
@@ -50,7 +51,7 @@ public class Task : MonoBehaviour
 
 	Color[] HeatmapToColorArray(float[,] hm)
 	{
-		print("HeatmapToColorArray");
+		Debug.Log("HeatmapToColorArray");
 		Color[] outArray = new Color[screenWidth*screenHeight];
 
 		for (int y = 0; y < screenHeight; y++) 
@@ -87,7 +88,7 @@ public class Task : MonoBehaviour
 
 	void WritePNG(Color[] c, string filepath)
 	{
-		print("WritePNG");
+		Debug.Log("WritePNG");
 		Texture2D outTex = new Texture2D(screenWidth, screenHeight);
 
 		outTex.SetPixels(c);
@@ -104,12 +105,12 @@ public class Task : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		print("Start");
+		Debug.Log("Start");
 		screenWidth = Screen.width;
 		screenHeight = Screen.height;
 		heatmap = new float[screenWidth, screenHeight];
-		print(screenWidth);
-		print(screenHeight);
+		Debug.Log(screenWidth);
+		Debug.Log(screenHeight);
 		isRunning = false;
 
 		timeLookingAway = 0;
@@ -130,13 +131,13 @@ public class Task : MonoBehaviour
 
 	public void StartTask()
 	{
-		print("Start Task");
+		Debug.Log("Start Task");
 		isRunning = true;
 	}
 
 	public void EndTask()
 	{
-		print("End Task");
+		Debug.Log("End Task");
 		isRunning = false;
 		WritePNG(HeatmapToColorArray(heatmap), "test.png");
 	}

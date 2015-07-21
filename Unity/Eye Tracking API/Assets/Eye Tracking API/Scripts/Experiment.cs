@@ -2,13 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Experiment : MonoBehaviour 
+//[SerializeField]
+public class Experiment 
 {
 	public List<Task> allTasks;
 
 	public Session session;
 
 	public int curTask = -1;
+
+	public string name;
 
 	void Awake()
 	{
@@ -18,11 +21,9 @@ public class Experiment : MonoBehaviour
 	public void StartTask()
 	{
 		//Create Task
-		print("CreateTask");
 		curTask++;
-        Task temp = gameObject.AddComponent<Task>();
-        temp.experiment = this;
-		allTasks.Add(temp);
+		allTasks.Add(new Task());
+		allTasks[curTask].experiment = this;
 
 		//Start Task
 		allTasks[curTask].StartTask();
@@ -30,6 +31,12 @@ public class Experiment : MonoBehaviour
 	}
 
 	public void EndTask()
+	{
+
+
+	}
+
+	public void EndExperiment()
 	{
 
 
