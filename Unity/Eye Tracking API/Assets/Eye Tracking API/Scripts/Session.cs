@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 
 [RequireComponent(typeof(GazePointDataComponent))]
 public class Session : MonoBehaviour 
 {
-	private string fileOut;
-	private string studentNo;
+	public string fileOut;
+	public string studentNo;
 	private string studentName;
 	private string teacherName;
 
@@ -54,12 +55,27 @@ public class Session : MonoBehaviour
 		UpdateTask();
 	}
 
+	/// <summary>
+	/// Creates a Session
+	/// Needs all Data for the output.
+	/// </summary>
+	/// <param name="mStudentNumber"></param>
+	/// <param name="mStudentName"></param>
+	/// <param name="mTeacherName"></param>
+	/// <param name="mOutlocation"></param>
 	public void StartSession(string mStudentNumber, string mStudentName, string mTeacherName, string mOutlocation)
 	{
 		studentNo = mStudentNumber;
 		studentName = mStudentName;
 		teacherName = mTeacherName;
 		fileOut = mOutlocation;
+
+		//Check if directory exits
+		if (!Directory.Exists(Application.dataPath + "/" + fileOut))
+		{
+			//if it doesn't, create it
+			Directory.CreateDirectory(Application.dataPath + "/" + fileOut);
+		}
 	}
 	/// <summary>
 	/// Runs the update function on the current task
@@ -136,11 +152,33 @@ public class Session : MonoBehaviour
 		allExperients[curExperiment].EndTask(taskName);
 	}
 
+
+	/// <summary>
+	/// Called to End the Session.
+	/// Will write out the CSV with interpolated Data
+	/// </summary>
 	public void EndSession()
 	{
 		//TODO
 		//Gather all data
 		//Save to CVS
+		WriteCSV();
+
+	}
+
+	/// <summary>
+	/// Writes out the CSV file to the previously specified location
+	/// </summary>
+	public void WriteCSV()
+	{
+		string tempOut = "";
+		tempOut += "Student Number: " + "," + studentNo + "," + "Student Name: " + "," + studentName + "," + "Teachers Name: " + "," + teacherName + "\n";
+		for (int i = 0; i < allExperients.Count; i++)
+		{
+			tempOut += allExperients[i].ReturnData();
+		}
+
+		System.IO.File.WriteAllText(Application.dataPath + "/" + fileOut + studentNo + " " + System.DateTime.Now.ToString("yyyy MM dd_hh mm ss") + ".csv" , tempOut);
 
 	}
 

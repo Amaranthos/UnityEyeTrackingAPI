@@ -45,6 +45,19 @@ public class Experiment
 
 	}
 
+	public string ReturnData()
+	{
+		string tempOut = "";
+		tempOut += "Experiment: " + name + "\n";
+		tempOut += "Task" + "," + "Time to Complete" + "," + "Correct Focus" + "," + "Heatmap" + "\n";
+		for (int i = 0; i < allTasks.Count; i++)
+		{
+			tempOut += allTasks[i].ReturnData();
+		}
+
+		return tempOut;
+	}
+
 	public void EndTask(string taskName)
 	{
 		//TODO Designer Proof check to see if task is still running

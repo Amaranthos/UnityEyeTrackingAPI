@@ -1,0 +1,357 @@
+Mono path[0] = 'C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Managed'
+Mono path[1] = 'C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono'
+Mono config path = 'C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55374
+Multi-casting "[IP] 192.168.56.1 [Port] 55374 [Flags] 2 [Guid] 765581949 [EditorId] 1943077775 [Version] 1048832 [Id] WindowsPlayer(Schnittys_Mac) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.56.1:55374]
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) Iris(TM) Graphics 5100 (ID=0xa2e)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+- Completed reload, in  0.072 seconds
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Build\Student Data Test_Data\Managed\System.dll (this message is harmless)
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/.\Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/.\Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/.\libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/.\Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/.\Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/Tobii.EyeX.Client
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/.\libTobii.EyeX.Client.dll
+Fallback handler could not load library C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Build/Student Data Test_Data/Mono/libTobii.EyeX.Client.dll
+EyeX initialization failed because the client access library 'Tobii.EyeX.Client.dll' could not be loaded. Please make sure that it is present in the root directory of the game/application.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+EyeXHost:InitializeEyeX() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Standard Assets\EyeXFramework\EyeXHost.cs:435)
+EyeXHost:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Standard Assets\EyeXFramework\EyeXHost.cs:219)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Standard Assets/EyeXFramework/EyeXHost.cs Line: 435)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 17d0 -> priority: 1 
+CreateExperiment: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+Session:StartExperiment(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:90)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:27)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+AA434.292
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:125)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Session.cs Line: 125)
+
+BB952.204
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:126)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Session.cs Line: 126)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:181)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 181)
+
+1024
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:185)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 185)
+
+768
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:186)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 186)
+
+Start Task
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:208)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 208)
+
+End Task
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:214)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 214)
+
+HeatmapToColorArray
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:HeatmapToColorArray(Single[,]) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:101)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:216)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 101)
+
+WritePNG
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:WritePNG(Color[], String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:157)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:216)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 157)
+
+AA434.292
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:125)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Session.cs Line: 125)
+
+BB952.204
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:126)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Session.cs Line: 126)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:181)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 181)
+
+1024
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:185)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 185)
+
+768
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:186)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 186)
+
+Start Task
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:208)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 208)
+
+End Task
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:214)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 214)
+
+HeatmapToColorArray
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:HeatmapToColorArray(Single[,]) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:101)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:216)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 101)
+
+WritePNG
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:WritePNG(Color[], String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:157)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:216)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 157)
+
+CreateExperiment: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:108)
+Session:StartExperiment(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:90)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:27)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 108)
+
+AA434.292
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:125)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Session.cs Line: 125)
+
+BB952.204
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:126)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Session.cs Line: 126)
+
+Start
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:181)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 181)
+
+1024
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:185)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 185)
+
+768
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:Start() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:186)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:207)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 186)
+
+Start Task
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:StartTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:208)
+Experiment:StartTask(String, Vector2, Vector2) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:44)
+Session:StartTask(String, BoxCollider2D) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:128)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:33)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 208)
+
+End Task
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:214)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 214)
+
+HeatmapToColorArray
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:HeatmapToColorArray(Single[,]) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:101)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:216)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 101)
+
+WritePNG
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Task:WritePNG(Color[], String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:157)
+Task:EndTask() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Task.cs:216)
+Experiment:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Experiment.cs:65)
+Session:EndTask(String) (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Session.cs:144)
+Example:Update() (at C:\Users\Chris\Desktop\Uni\Trimester 5 2015\Repo_ScienceGame\Unity\Eye Tracking API\Assets\Eye Tracking API\Scripts\Example.cs:37)
+ 
+(Filename: C:/Users/Chris/Desktop/Uni/Trimester 5 2015/Repo_ScienceGame/Unity/Eye Tracking API/Assets/Eye Tracking API/Scripts/Task.cs Line: 157)
+

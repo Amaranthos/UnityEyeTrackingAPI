@@ -24,14 +24,23 @@ public class Task
 	private int screenHeight; //Holds screen height. Screen res should never change
 	private int heatmapRange = 20; //Radius of the focus area for each frame
 	private float maxValue;//stores the maximum valua of the heatmap to scale at the end.
-	private float timeLookingAway;
 
+
+	private float totalTime = 0;
+	private float timeInside = 0;
+	private float timeOutside = 0;
+
+
+	private string heatmapName;
 
 	private void UpdateHeatmap()
 	{
 		Vector2 fPos = experiment.session.focusPos;
 
 		//Debug.Log(aa);
+
+		//Count Time for inside and outside.
+		totalTime += Time.deltaTime;
 
 		//Apply a percentage of delta time to area around focus point.
 		for (int i = ((int)fPos.x - heatmapRange); i < ((int)fPos.x + heatmapRange + 1) ; i++) 
@@ -55,6 +64,37 @@ public class Task
 				}
 			}
 		}
+	}
+
+	public string ReturnData()
+	{
+		for (int y = 0; y < screenHeight; y++)
+		{
+			for (int x = 0; x < screenWidth; x++)
+			{
+				if (y > aa.y && y < bb.y && x > aa.x && x < bb.x)
+				{
+					timeInside += heatmap[x, y];
+				}
+				else
+				{
+					timeOutside += heatmap[x, y];
+				}
+			}
+		}
+
+		string tempOut = "";
+		tempOut += name + "," +  ConvertSecondsToClock(totalTime) + "," +  ((timeInside / (timeInside + timeOutside)) * 100).ToString() + "%" + "," + "=HYPERLINK(\"" + heatmapName + "\")\n";
+
+		return tempOut;
+	}
+
+	string ConvertSecondsToClock(float seconds)
+	{
+		int mins = ((int)(seconds/60));
+		int secs = (int)seconds - (mins*60);
+
+		return mins.ToString() + ":" + secs.ToString();
 	}
 
 	Color[] HeatmapToColorArray(float[,] hm)
@@ -116,7 +156,13 @@ public class Task
 	void WritePNG(Color[] c, string filepath)
 	{
 		Debug.Log("WritePNG");
+
 		Texture2D outTex = new Texture2D(screenWidth, screenHeight);
+		if (!Directory.Exists(Application.dataPath + "/" + filepath))
+		{
+			//if it doesn't, create it
+			Directory.CreateDirectory(Application.dataPath + "/" + filepath);
+		}
 
 		outTex.SetPixels(c);
 
@@ -125,7 +171,8 @@ public class Task
 		//Object.Destroy(outTex);
 		
 		// For testing purposes, also write to a file in the project folder
-		File.WriteAllBytes(Application.dataPath + "/" + filepath, bytes);
+		heatmapName = Application.dataPath + "/" + filepath + experiment.session.studentNo + " " + System.DateTime.Now.ToString("yyyy MM dd_hh mm ss") + ".png";
+		File.WriteAllBytes(heatmapName, bytes);
 
 	}
 	
@@ -140,7 +187,6 @@ public class Task
 		Debug.Log(screenHeight);
 		isRunning = false;
 
-		timeLookingAway = 0;
 		maxValue = 0;
 	}
 	
@@ -167,7 +213,7 @@ public class Task
 	{
 		Debug.Log("End Task");
 		isRunning = false;
-		WritePNG(HeatmapToColorArray(heatmap), "test.png");
+		WritePNG(HeatmapToColorArray(heatmap), experiment.session.fileOut + "Heatmaps/");
 		
 	}
 
